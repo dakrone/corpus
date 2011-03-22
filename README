@@ -1,0 +1,15 @@
+# corpus
+
+A tool used to train detokenization libraries
+
+## Usage
+
+(use 'corpus.core)
+(def w (corpus-file "data/alice-in-wonderland.txt"))
+(count w)
+
+## License
+
+Copyright (C) 2010 Lee Hinman
+
+Distributed under the Eclipse Public License, the same as Clojure.
